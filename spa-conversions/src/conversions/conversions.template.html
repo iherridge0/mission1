@@ -1,0 +1,27 @@
+<main>
+    <form ng-submit="$ctrl.mtok(1)">
+      <h1 class="h3 mb-3 fw-normal">Conversions</h1>
+        <div class="form-control">
+
+          <select ng-model="$ctrl.fromSelected" class="form-control w-100" ng-options="option.name for option in $ctrl.fromOptions"
+              ng-change="$ctrl.updateFromSelected()">
+            <option value="">-- choose --</option>
+          </select>
+
+          <div class="w-100">
+              <input type="text" id="from" placeholder="from value" class="form-control" ng-model="$ctrl.fromValue" ng-change="$ctrl.fromValueChange()">
+          </div>
+
+          <select ng-model="$ctrl.toSelected" class="form-control w-100" ng-options="option.name for option in $ctrl.toOptions"
+              ng-change="$ctrl.updateToSelected()">
+            <option value="">-- choose --</option>
+          </select>
+
+          <div class=" w-100">
+              <input type="text" id="to" placeholder="to value" class="form-control" ng-model="$ctrl.toValue"  ng-change="$ctrl.toValueChange()">
+          </div>
+
+        </div>
+        <button id="convert" type="submit" class="w-100 btn btn-lg btn-info">Convert</button>
+    </form>
+</main>

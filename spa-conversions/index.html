@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='ConversionsApp'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Conversions Application</title>
+  </head>
+  <body class="text-center">
+
+    <div class="container">
+        <ui-view></ui-view>
+    </div>
+
+
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/routes.js"></script>
+    <script src="src/login/login.module.js"></script>
+    <script src="src/conversions/conversions.module.js"></script>
+
+    <!-- Controllers -->
+    <script src="src/login/login.controller.js"></script>
+    <script src="src/conversions/conversions.controller.js"></script>
+
+    <!-- Services -->
+    <script src="src/service/conversions.service.js"></script>
+
+  </body>
+</html>
