@@ -60,16 +60,16 @@ function ConversionsController($state, ConversionsService){
   $ctrl.updateToSelected = function () {
     if($ctrl.toSelected.name == 'Miles'){
       $ctrl.fromSelected = $ctrl.fromOptions[1];
-      $ctrl.mtok($ctrl.Value, 'to');
+      $ctrl.mtok($ctrl.toValue, 'to');
     } else if($ctrl.toSelected.name == 'Kilometers'){
       $ctrl.fromSelected = $ctrl.fromOptions[0];
-      $ctrl.ktom($ctrl.fromValue, 'to');
+      $ctrl.ktom($ctrl.toValue, 'to');
     } else if($ctrl.toSelected.name == 'Kelvin'){
       $ctrl.fromSelected = $ctrl.fromOptions[3];
-      $ctrl.ktoc($ctrl.fromValue, 'to');
+      $ctrl.ktoc($ctrl.toValue, 'to');
     } else if($ctrl.toSelected.name == 'Celcius'){
       $ctrl.fromSelected = $ctrl.fromOptions[2];
-      $ctrl.ctok($ctrl.fromValue, 'to');
+      $ctrl.ctok($ctrl.toValue, 'to');
     }
   }
 
