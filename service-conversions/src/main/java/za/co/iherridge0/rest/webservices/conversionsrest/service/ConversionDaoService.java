@@ -1,11 +1,11 @@
-package za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.service;
+package za.co.iherridge0.rest.webservices.conversionsrest.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import za.co.iherridge0.rest.webservices.conversions.Configuration;
-import za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.entity.Conversion;
-import za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.entity.ConversionType;
+import za.co.iherridge0.rest.webservices.conversionsrest.Configuration;
+import za.co.iherridge0.rest.webservices.conversionsrest.entity.Conversion;
+import za.co.iherridge0.rest.webservices.conversionsrest.entity.ConversionType;
 
 @Component
 public class ConversionDaoService {

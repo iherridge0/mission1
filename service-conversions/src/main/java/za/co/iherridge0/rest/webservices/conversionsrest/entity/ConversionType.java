@@ -1,4 +1,4 @@
-package za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.entity;
+package za.co.iherridge0.rest.webservices.conversionsrest.entity;
 
 public abstract interface ConversionType {
 

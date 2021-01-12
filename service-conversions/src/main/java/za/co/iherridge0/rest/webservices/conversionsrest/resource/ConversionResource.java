@@ -1,4 +1,4 @@
-package za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.resource;
+package za.co.iherridge0.rest.webservices.conversionsrest.resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.converter.json.MappingJacksonValue;
@@ -10,9 +10,9 @@ import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 
-import za.co.iherridge0.rest.webservices.conversions.Configuration;
-import za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.entity.Conversion;
-import za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.service.ConversionDaoService;
+import za.co.iherridge0.rest.webservices.conversionsrest.entity.Conversion;
+import za.co.iherridge0.rest.webservices.conversionsrest.service.ConversionDaoService;
+
 
 @RestController
 public class ConversionResource {

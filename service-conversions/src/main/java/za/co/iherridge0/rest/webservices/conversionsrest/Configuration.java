@@ -1,4 +1,4 @@
-package za.co.iherridge0.rest.webservices.conversions;
+package za.co.iherridge0.rest.webservices.conversionsrest;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

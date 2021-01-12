@@ -1,10 +1,10 @@
-package za.co.iherridge0.rest.webservices.conversions.conversionsrest.conversion.entity;
+package za.co.iherridge0.rest.webservices.conversionsrest.entity;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import za.co.iherridge0.rest.webservices.conversions.Configuration;
+import za.co.iherridge0.rest.webservices.conversionsrest.Configuration;
 
 @JsonFilter("ConversionFilter")
 @ApiModel(description = "This API Model describes the Conversion model.")
