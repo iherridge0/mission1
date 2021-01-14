@@ -17,13 +17,13 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
 
     .state('login', {
       url: '/login',
-      templateUrl: 'js/login/login.template.html',
+      templateUrl: 'src/login/login.template.html',
       controller: 'LoginController as $ctrl'
     })
 
     .state('conversions', {
       url: '/conversions',
-      templateUrl: 'js/conversions/conversions.template.html',
+      templateUrl: 'src/conversions/conversions.template.html',
       controller: 'ConversionsController as $ctrl'
     });
 }

@@ -1,7 +1,7 @@
 <main>
-    <form ng-submit="$ctrl.mtok(1)">
+    <form ng-submit="$ctrl.updateFromSelected()">
       <h1 class="h3 mb-3 fw-normal">Conversions</h1>
-        <div class="form-control">
+        <div class="form-group">
 
           <select ng-model="$ctrl.fromSelected" class="form-control w-100" ng-options="option.name for option in $ctrl.fromOptions"
               ng-change="$ctrl.updateFromSelected()">
@@ -22,6 +22,6 @@
           </div>
 
         </div>
-        <!-- <button id="convert" type="submit" class="w-100 btn btn-lg btn-info">Convert</button> -->
+        <button id="convert" type="submit" class="w-100 btn btn-lg btn-info">Convert</button>
     </form>
 </main>
