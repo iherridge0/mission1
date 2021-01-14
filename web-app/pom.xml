@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<webjars.angularjs.version>1.5.8</webjars.angularjs.version>
+		<webjars.angularjs.version>1.8.0</webjars.angularjs.version>
 		<webjars.angular-ui-router>1.0.20</webjars.angular-ui-router>
 	</properties>
 
